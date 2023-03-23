@@ -335,13 +335,13 @@
             <br />
             <div class="control-group">
                 <label class="control-label">{{ _('CPU warning threshold:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="200" step="1" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.cpuTempWarningThreshold">
                     <span class="add-on">&deg;C</span>
                 </div>
                 <label class="control-label">{{ _('CPU critical threshold:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="200" step="1" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.cpuTempCriticalThreshold">
                     <span class="add-on">&deg;C</span>
@@ -442,7 +442,7 @@
                         </div>
                         <div class="span1">
                             <button title="{{ _('Widget options') }}" class="btn btn-danger"
-                                data-bind="click: $parent.removeWebCam, attr: { 'title': '{{ _('Remove WebCam') }}' }"><i
+                                data-bind="click: $parent.removeWebCam, attr: { 'title': '{{ _('Remove Webcam') }}' }"><i
                                     class="fa fa-trash-o"></i></button>
                         </div>
                         <!-- Modal -->
@@ -466,11 +466,11 @@
                                     <input class="span10" type="text" class="span" data-bind="value: url">
                                 </div>
                                 <label class="checkbox">{{ _('Flip webcam vertically') }}
-                                    <input type="checkbox" title="{{ _('Flip webcam Vertically') }}"
+                                    <input type="checkbox" title="{{ _('Flip webcam vertically') }}"
                                         data-bind="checked: flipV">
                                 </label>
-                                <label class="checkbox">{{ _('Flip webcam Horizontally') }}
-                                    <input type="checkbox" title="{{ _('Flip webcam Horizontally') }}"
+                                <label class="checkbox">{{ _('Flip webcam horizontally') }}
+                                    <input type="checkbox" title="{{ _('Flip webcam horizontally') }}"
                                         data-bind="checked: flipH">
                                 </label>
                                 <label class="checkbox">{{ _('Rotate webcam 90 degrees counter clockwise') }}
@@ -528,19 +528,19 @@
                 <br />
                 <br />
                 <label class="control-label">{{ _('Hotend Max Temp:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="300" step="10" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.hotendTempMax">
                     <span class="add-on">&deg;C</span>
                 </div>
                 <label class="control-label">{{ _('Bed Max Temp:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="300" step="10" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.bedTempMax">
                     <span class="add-on">&deg;C</span>
                 </div>
                 <label class="control-label">{{ _('Chamber Max Temp:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="300" step="10" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.chamberTempMax">
                     <span class="add-on">&deg;C</span>
@@ -564,7 +564,7 @@
                 <span class="dash-info-followup"
                     data-bind="text: gettext('Temperature Ticks show reference values on the gauge. The number determines how many ticks will display.')"></span><br />
                 <label class="control-label">{{ _('Temperature Ticks:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="25" step="1" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.temperatureTicks">
                 </div>
@@ -572,7 +572,7 @@
                 <span class="dash-info-followup"
                     data-bind="text: gettext('Temp gauges will be blue below the temp deviation of the target temp, red if it goes above and green between the two.')"></span><br />
                 <label class="control-label">{{ _('Target temp deviation:')}}</label>
-                <div class="controls">
+                <div class="controls clearfix">
                     <input type="number" min="0" max="50" step="1" class="input-mini text-left"
                         data-bind="value: settingsViewModel.settings.plugins.dashboard.targetTempDeviation">
                     <span class="add-on">&deg;C</span>
@@ -588,7 +588,7 @@
     <h5>{{ _('Other Settings') }}</h5>
     <div class="control-group">
         <div>
-            <label class="checkbox">{{ _('Use theme color for gagues and text') }}
+            <label class="checkbox">{{ _('Use theme color for gauges and text') }}
                 <input type="checkbox"
                     data-bind="checked: settingsViewModel.settings.plugins.dashboard.useThemeifyColor">
             </label>

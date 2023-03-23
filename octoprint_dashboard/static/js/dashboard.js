@@ -493,7 +493,7 @@ $(function () {
                     title: gettext("Enclosure Gauges"),
                     enabled: dashboardSettings.showSensorInfo,
                     settings: [
-                        { type: "radio", title: gettext("Enclosure Plugin Gague Style"), setting: dashboardSettings.enclosureGaugeStyle, options: [{ name: gettext("Temperature Dial"), value: "3/4" }, { name: gettext("Text"), value: "text" }] }
+                        { type: "radio", title: gettext("Enclosure Plugin Gauge Style"), setting: dashboardSettings.enclosureGaugeStyle, options: [{ name: gettext("Temperature Dial"), value: "3/4" }, { name: gettext("Text"), value: "text" }] }
                     ],
                     enableInFull: dashboardSettings.fsSensorInfo,
                     printingOnly: dashboardSettings.printingOnly_SensorInfo
@@ -815,7 +815,7 @@ $(function () {
             }
         });
 
-        // --- 3/4 Gague Tick code ---
+        // --- 3/4 Gauge Tick code ---
         self.tempGaugeSvgPath = ko.computed(() => {
             a = Math.PI / 180 * (360 - self.tempGaugeAngle()) / 2;
             offset = self.tempGaugeOffset();
@@ -875,9 +875,9 @@ $(function () {
 
         self.formatFanText = function (fanSpeed) {
             if (isNaN(fanSpeed))
-                return "Off";
+                return gettext("Off");
             if (fanSpeed == 0)
-                return "Off";
+                return gettext("Off");
             return Number.parseFloat(fanSpeed).toFixed(0) + "%";
         }
 

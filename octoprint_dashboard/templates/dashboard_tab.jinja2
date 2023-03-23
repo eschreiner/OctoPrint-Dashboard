@@ -58,7 +58,7 @@
       <div class="dashboardGridItem sysInfo"
         data-bind="visible: (!dashboardSettings.printingOnly_SystemInfo() || printerStateModel.isPrinting()) && dashboardSettings.showSystemInfo() && fsSystemInfo()">
         <img class="dashboardIcon" title="{{ _('RAM Usage') }}" src="plugin/dashboard/static/img/ram-icon.png">
-        <span id="connectionInfo" title="{{ _('Ram Usage') }}" data-bind="html: virtualMemPercent() + '%'"></span>
+        <span id="connectionInfo" title="{{ _('RAM Usage') }}" data-bind="html: virtualMemPercent() + '%'"></span>
       </div>
       <div class="dashboardGridItem sysInfo"
         data-bind="visible: (!dashboardSettings.printingOnly_SystemInfo() || printerStateModel.isPrinting()) && dashboardSettings.showSystemInfo() && fsSystemInfo()">
@@ -637,7 +637,7 @@
           title="{{ _('Total Layers') }}" data-bind="html: '/' + (parseInt(totalLayer()) - 1) + ' layers'"></span>
       </div>
       <div class="dashboardGridItem layerProgress" data-bind="visible: printerStateModel.isPrinting()">
-        <img class="dashboardIcon" title="{{ _('Current height') }}" src="plugin/dashboard/static/img/height-icon.png">
+        <img class="dashboardIcon" title="{{ _('Current Height') }}" src="plugin/dashboard/static/img/height-icon.png">
         <span id="currentHeight" title="{{ _('Current Height') }}" data-bind="html: currentHeight"></span>
         <span class="dashboardSmall" id="totalHeight"
           title="{{ _('Total Height') }}" data-bind="html: '/' + totalHeight() + 'mm'"></span>
