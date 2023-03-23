@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint-Dashboard 1.19.9\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2023-03-23 08:20+0100\n"
-"PO-Revision-Date: 2023-03-23 09:55+0100\n"
+"POT-Creation-Date: 2023-03-23 11:36+0100\n"
+"PO-Revision-Date: 2023-03-23 09:59+0100\n"
 "Last-Translator: \n"
-"Language-Team: de <LL@li.org>\n"
 "Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.2.2\n"
 
 #: octoprint_dashboard/static/js/dashboard.js:487
 msgid "FullScreen & FullBrowser Mode Buttons"
@@ -126,11 +125,11 @@ msgstr "Filament-Widget"
 
 #: octoprint_dashboard/static/js/dashboard.js:548
 msgid ""
-"The filament widget shows how much filament has been extruded. It can also "
-"show the time untill next filament change."
+"The filament widget shows how much filament has been extruded. It can "
+"also show the time untill next filament change."
 msgstr ""
-"Das Filament-Widget zeigt an, wie viel Filament extrudiert wurde. Es kann "
-"zudem die Zeit bis zum nächsten Filamentwechsel anzeigen."
+"Das Filament-Widget zeigt an, wie viel Filament extrudiert wurde. Es kann"
+" zudem die Zeit bis zum nächsten Filamentwechsel anzeigen."
 
 #: octoprint_dashboard/static/js/dashboard.js:552
 msgid "Show time untill next filament change"
@@ -642,11 +641,11 @@ msgstr "Meldung: "
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:368
 msgid ""
-"The CPU temp indicator will be set to orange above the warning threshold and "
-"red above the critical threshold."
+"The CPU temp indicator will be set to orange above the warning threshold "
+"and red above the critical threshold."
 msgstr ""
-"Die CPU-Temperaturanzeige wird orange oberhalb des Grenzwerts für Warnung und "
-"rot oberhalb des Grenzwerts für Kritikalität."
+"Die CPU-Temperaturanzeige wird orange oberhalb des Grenzwerts für Warnung"
+" und rot oberhalb des Grenzwerts für Kritikalität."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:369
 msgid "The max range of the respective temp gauge:"
@@ -655,37 +654,39 @@ msgstr "Der maximale Wert für die jeweilige Temperaturanzeige:"
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:370
 msgid "Hide hotend(s) when target temp is 0 (Useful for dual hotends)"
 msgstr ""
-"Verberge Düse(n) wenn die Soll-Temperatur 0 ist (nützlich für mehrere Düsen)"
+"Verberge Düse(n) wenn die Soll-Temperatur 0 ist (nützlich für mehrere "
+"Düsen)"
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:371
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:380
 msgid ""
-"Temperature Ticks show reference values on the gauge. The number determines "
-"how many ticks will display."
+"Temperature Ticks show reference values on the gauge. The number "
+"determines how many ticks will display."
 msgstr ""
-"Striche auf der Temperatur-Skala zeigen Referenzwerte der Anzeige. Die Zahl "
-"legt fest, wie viele Striche angezeigt werden."
+"Striche auf der Temperatur-Skala zeigen Referenzwerte der Anzeige. Die "
+"Zahl legt fest, wie viele Striche angezeigt werden."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:372
 msgid ""
-"Temp gauges will be blue below the temp deviation of the target temp, red if "
-"it goes above and green between the two."
+"Temp gauges will be blue below the temp deviation of the target temp, red"
+" if it goes above and green between the two."
 msgstr ""
-"Temperaturanzeigen sind blau unterhalb der erlaubten Abweichung vom Sollwert, "
-"rot oberhalb der erlaubten Abweichung und grün zwischen diesen beiden Werten."
+"Temperaturanzeigen sind blau unterhalb der erlaubten Abweichung vom "
+"Sollwert, rot oberhalb der erlaubten Abweichung und grün zwischen diesen "
+"beiden Werten."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:373
 msgid ""
-"The following webcams will be displayed instead of the octoprint webcam if "
-"multi webcam is enabled."
+"The following webcams will be displayed instead of the octoprint webcam "
+"if multi webcam is enabled."
 msgstr ""
-"Die folgenden Webcams werden angezeigt anstelle der Octoprint-Webcam falls "
-"\"mehrere Webcams\" aktiviert wird."
+"Die folgenden Webcams werden angezeigt anstelle der Octoprint-Webcam "
+"falls \"mehrere Webcams\" aktiviert wird."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:374
 msgid ""
-"The Feedrate widget shows the current, average (last 5 seconds) and average "
-"(print) feedrate (movement speed)."
+"The Feedrate widget shows the current, average (last 5 seconds) and "
+"average (print) feedrate (movement speed)."
 msgstr ""
 "Das Vorschub-Widget zeigt den aktuellen, durchschnittlichen (letzte 5 "
 "Sekunden) und durchschnittlichen (gesamter Druck) Vorschub (Extrudier-"
@@ -693,39 +694,40 @@ msgstr ""
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:375
 msgid ""
-"The Feedrate widget can cause the octoprint webpage to perform slowly. If "
-"you're experiencing issues with lag, please try disabling this."
+"The Feedrate widget can cause the octoprint webpage to perform slowly. If"
+" you're experiencing issues with lag, please try disabling this."
 msgstr ""
 "Das Vorschub-Widget kann die Performanz der Octoprint-Webseite "
-"beeinträchtigen. Falls du Probleme mit Verzögerungen hast, versuche bitte "
-"dieses Widget zu deaktivieren."
+"beeinträchtigen. Falls du Probleme mit Verzögerungen hast, versuche bitte"
+" dieses Widget zu deaktivieren."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:376
 msgid ""
-"The stdout output of each shell command below will be displayed in a separate "
-"widget."
+"The stdout output of each shell command below will be displayed in a "
+"separate widget."
 msgstr ""
-"Die Standardausgabe für jedes untenstehende Befehlsfenster-Kommando wird in "
-"einem separaten Bereich angezeigt werden."
+"Die Standardausgabe für jedes untenstehende Befehlsfenster-Kommando wird "
+"in einem separaten Bereich angezeigt werden."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:377
 msgid "Editing command widgets requires dashboard admin permission"
 msgstr ""
-"Das Bearbeiten von Befehls-Widgets erfordert Administratorberechtigung für das "
-"Dashboard"
+"Das Bearbeiten von Befehls-Widgets erfordert Administratorberechtigung "
+"für das Dashboard"
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:378
 msgid ""
-"The command(s) will be executed with the privileges of the octoprint server, "
-"so think twice..."
+"The command(s) will be executed with the privileges of the octoprint "
+"server, so think twice..."
 msgstr ""
-"Die Befehle werden mit den Berechtigungen des Octoprint-Servers ausgeführt, "
-"also überlege es dir gut..."
+"Die Befehle werden mit den Berechtigungen des Octoprint-Servers "
+"ausgeführt, also überlege es dir gut..."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:379
 msgid "HLS webcams are supported, but will not respond to rotations or flipping."
 msgstr ""
-"HLS-Webcams werden unterstützt, aber erlauben keine Drehung oder Spiegelung."
+"HLS-Webcams werden unterstützt, aber erlauben keine Drehung oder "
+"Spiegelung."
 
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:398
 #: octoprint_dashboard/templates/dashboard_tab.jinja2:399
@@ -849,3 +851,4 @@ msgstr "Durchschnittliche Zeit für Schichten"
 
 #~ msgid "Current height"
 #~ msgstr "Aktuelle Höhe"
+
